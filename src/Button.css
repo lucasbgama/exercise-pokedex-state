@@ -1,0 +1,30 @@
+button {
+  color: white;
+  font-weight: 700;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+button:enabled {
+  border: 1px solid orange;
+}
+
+button:disabled {
+  background-color: #D3D3D3;
+  border: none
+}
+
+.next { 
+  background-color: green;
+}
+
+.type {
+  background-color: orange;
+  border: 1px solid white;
+}
+
+button:focus {
+  border: 3px solid #6495ED;
+  border-radius: 5px;
+}
